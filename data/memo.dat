@@ -1,0 +1,18 @@
+File Name: cfd_data.npy
+Shape: (N, 7)
+Description: This file contains CFD simulation data extracted from a 3D mesh. Each row represents one spatial point within the computational domain.
+
+Column Definitions:
+
+Index	Column	Description
+0	x	X-coordinate of the point
+1	y	Y-coordinate of the point
+2	z	Z-coordinate of the point
+3	u	Velocity component in X-direction
+4	v	Velocity component in Y-direction
+5	w	Velocity component in Z-direction
+6	p	Pressure at the point
+
+Note:
+All physical quantities are stored as floating point numbers (typically float32 or float64, depending on the source data).
+Units depend on the original simulation and are not included in this file.
